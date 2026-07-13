@@ -5,12 +5,13 @@
         ┌────────────┬────────────┬────────────┐
         │            │            │            │
         ▼            ▼            ▼            ▼
-   Auth Service  Company Service AI Service Watchlist Service
-        │            │            │            │
-        └────────────┼────────────┼────────────┘
-                     │
-           Financial Data Service
-                     │
-          External Financial APIs
-                     ▼
-              MongoDB Cluster
+
+Auth Service Company Service AI Service Watchlist Service
+│ │ │ │
+└────────────┼────────────┼────────────┘
+│
+Financial Data Service
+│
+External Financial APIs
+▼
+MongoDB Cluster
